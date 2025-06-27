@@ -1,0 +1,14 @@
+
+version: '3.8'
+
+services:
+  mqtt-bridge:
+    build: .
+    ports:
+      - "8765:8765"
+    environment:
+      - MQTT_BROKER=185.131.248.7
+      - MQTT_PORT=1883
+      - MQTT_USER=wisegrid
+      - MQTT_PASSWORD=wisegrid
+    restart: unless-stopped
