@@ -1,0 +1,216 @@
+[2025-06-30 09:50:34,617] INFO - Connesso al broker WebSocket MQTT di destinazione.
+[2025-06-30 09:50:34,652] INFO - Connesso con successo al broker MQTT di origine.
+[2025-06-30 09:50:34,652] INFO - Iscritto al topic: A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV
+[2025-06-30 09:50:34,652] INFO - Iscritto al topic: A2MQTT_EMOTION/STALLI_OCCUPATI/CV
+[2025-06-30 09:50:34,671] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":20,"dt":3,"ts":"2025-06-30T07:47:14.987000Z","q":192}
+[2025-06-30 09:50:34,671] INFO - Messaggio inoltrato a emotion/parking/average_duration con successo.
+[2025-06-30 09:50:34,682] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":243,"dt":3,"ts":"2025-06-30T07:49:40.434000Z","q":192}
+[2025-06-30 09:50:34,683] INFO - Messaggio inoltrato a emotion/parking/occupied_spots con successo.
+[2025-06-30 09:52:00,798] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T07:52:00.425000Z","q":192}
+[2025-06-30 09:52:00,800] INFO - Messaggio inoltrato a emotion/parking/occupied_spots con successo.
+[2025-06-30 09:52:50,741] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":243,"dt":3,"ts":"2025-06-30T07:52:50.397000Z","q":192}
+[2025-06-30 09:52:50,742] INFO - Messaggio inoltrato a emotion/parking/occupied_spots con successo.
+[2025-06-30 09:53:20,750] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":242,"dt":3,"ts":"2025-06-30T07:53:20.373000Z","q":192}
+[2025-06-30 09:53:20,750] INFO - Messaggio inoltrato a emotion/parking/occupied_spots con successo.
+[2025-06-30 09:54:30,821] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":241,"dt":3,"ts":"2025-06-30T07:54:30.375000Z","q":192}
+[2025-06-30 09:54:30,821] INFO - Messaggio inoltrato a emotion/parking/occupied_spots con successo.
+[2025-06-30 09:56:20,756] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":242,"dt":3,"ts":"2025-06-30T07:56:20.383000Z","q":192}
+[2025-06-30 09:56:20,757] INFO - Messaggio inoltrato a emotion/parking/occupied_spots con successo.
+[2025-06-30 09:56:32,490] INFO - Connesso al broker WebSocket MQTT di destinazione.
+[2025-06-30 09:56:32,518] INFO - Connesso con successo al broker MQTT di origine.
+[2025-06-30 09:56:32,518] INFO - Iscritto al topic: A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV
+[2025-06-30 09:56:32,518] INFO - Iscritto al topic: A2MQTT_EMOTION/STALLI_OCCUPATI/CV
+[2025-06-30 09:56:32,533] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":20,"dt":3,"ts":"2025-06-30T07:47:14.987000Z","q":192}
+[2025-06-30 09:56:32,534] INFO - Messaggio inoltrato a parking-asm/parking/average_duration con successo.
+[2025-06-30 09:56:32,544] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":242,"dt":3,"ts":"2025-06-30T07:56:20.383000Z","q":192}
+[2025-06-30 09:56:32,544] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 09:57:30,759] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":241,"dt":3,"ts":"2025-06-30T07:57:30.373000Z","q":192}
+[2025-06-30 09:57:30,760] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 09:58:00,751] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":242,"dt":3,"ts":"2025-06-30T07:58:00.425000Z","q":192}
+[2025-06-30 09:58:00,751] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:00:10,804] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T08:00:10.380000Z","q":192}
+[2025-06-30 10:00:10,805] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:03:50,774] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":243,"dt":3,"ts":"2025-06-30T08:03:50.427000Z","q":192}
+[2025-06-30 10:03:50,776] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:04:10,770] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":242,"dt":3,"ts":"2025-06-30T08:04:10.428000Z","q":192}
+[2025-06-30 10:04:10,771] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:06:00,717] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":243,"dt":3,"ts":"2025-06-30T08:06:00.445000Z","q":192}
+[2025-06-30 10:06:00,717] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:07:10,804] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T08:07:10.479000Z","q":192}
+[2025-06-30 10:07:10,805] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:10:31,720] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T08:10:30.618000Z","q":192}
+[2025-06-30 10:10:31,722] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:10:51,719] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T08:10:50.615000Z","q":192}
+[2025-06-30 10:10:51,719] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:12:26,725] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":19,"dt":3,"ts":"2025-06-30T08:12:25.588000Z","q":192}
+[2025-06-30 10:12:26,726] INFO - Messaggio inoltrato a parking-asm/parking/average_duration con successo.
+[2025-06-30 10:12:31,728] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T08:12:30.635000Z","q":192}
+[2025-06-30 10:12:31,728] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:14:01,722] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T08:14:00.618000Z","q":192}
+[2025-06-30 10:14:01,724] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:14:21,813] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T08:14:20.617000Z","q":192}
+[2025-06-30 10:14:21,815] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:15:01,749] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T08:15:00.621000Z","q":192}
+[2025-06-30 10:15:01,751] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:19:51,731] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":243,"dt":3,"ts":"2025-06-30T08:19:50.790000Z","q":192}
+[2025-06-30 10:19:51,733] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:22:16,752] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":20,"dt":3,"ts":"2025-06-30T08:22:16.246000Z","q":192}
+[2025-06-30 10:22:16,753] INFO - Messaggio inoltrato a parking-asm/parking/average_duration con successo.
+[2025-06-30 10:22:21,768] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":242,"dt":3,"ts":"2025-06-30T08:22:21.278000Z","q":192}
+[2025-06-30 10:22:21,768] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:26:51,812] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":241,"dt":3,"ts":"2025-06-30T08:26:51.282000Z","q":192}
+[2025-06-30 10:26:51,813] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:27:01,750] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":240,"dt":3,"ts":"2025-06-30T08:27:01.288000Z","q":192}
+[2025-06-30 10:27:01,751] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:27:06,766] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":24,"dt":3,"ts":"2025-06-30T08:27:06.248000Z","q":192}
+[2025-06-30 10:27:06,767] INFO - Messaggio inoltrato a parking-asm/parking/average_duration con successo.
+[2025-06-30 10:28:01,760] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":239,"dt":3,"ts":"2025-06-30T08:28:01.287000Z","q":192}
+[2025-06-30 10:28:01,762] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:33:11,751] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":240,"dt":3,"ts":"2025-06-30T08:33:11.338000Z","q":192}
+[2025-06-30 10:33:11,752] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:34:11,753] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":241,"dt":3,"ts":"2025-06-30T08:34:11.310000Z","q":192}
+[2025-06-30 10:34:11,754] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:34:31,810] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":242,"dt":3,"ts":"2025-06-30T08:34:31.324000Z","q":192}
+[2025-06-30 10:34:31,811] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:35:41,853] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":243,"dt":3,"ts":"2025-06-30T08:35:41.321000Z","q":192}
+[2025-06-30 10:35:41,854] INFO - Messaggio inoltrato a parking-asm/parking/occupied_spots con successo.
+[2025-06-30 10:36:51,710] INFO - Connesso al broker WebSocket MQTT di destinazione.
+[2025-06-30 10:36:51,740] INFO - Connesso con successo al broker MQTT di origine.
+[2025-06-30 10:36:51,740] INFO - Iscritto al topic: A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV
+[2025-06-30 10:36:51,740] INFO - Iscritto al topic: A2MQTT_EMOTION/STALLI_OCCUPATI/CV
+[2025-06-30 10:36:51,755] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":24,"dt":3,"ts":"2025-06-30T08:27:06.248000Z","q":192}
+[2025-06-30 10:36:51,756] INFO - Messaggio inoltrato a parking-asm/average_duration con successo.
+[2025-06-30 10:36:51,773] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T08:36:51.298000Z","q":192}
+[2025-06-30 10:36:51,773] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:38:41,763] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":243,"dt":3,"ts":"2025-06-30T08:38:41.308000Z","q":192}
+[2025-06-30 10:38:41,765] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:38:46,767] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":23,"dt":3,"ts":"2025-06-30T08:38:46.261000Z","q":192}
+[2025-06-30 10:38:46,767] INFO - Messaggio inoltrato a parking-asm/average_duration con successo.
+[2025-06-30 10:40:51,821] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":242,"dt":3,"ts":"2025-06-30T08:40:51.328000Z","q":192}
+[2025-06-30 10:40:51,823] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:41:51,763] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":241,"dt":3,"ts":"2025-06-30T08:41:51.314000Z","q":192}
+[2025-06-30 10:41:51,765] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:42:01,766] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":242,"dt":3,"ts":"2025-06-30T08:42:01.321000Z","q":192}
+[2025-06-30 10:42:01,766] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:42:31,773] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":241,"dt":3,"ts":"2025-06-30T08:42:31.317000Z","q":192}
+[2025-06-30 10:42:31,775] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:42:51,767] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":242,"dt":3,"ts":"2025-06-30T08:42:51.311000Z","q":192}
+[2025-06-30 10:42:51,768] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:45:51,861] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":243,"dt":3,"ts":"2025-06-30T08:45:51.303000Z","q":192}
+[2025-06-30 10:45:51,865] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:48:11,756] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T08:48:11.307000Z","q":192}
+[2025-06-30 10:48:11,759] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:50:21,732] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T08:50:21.305000Z","q":192}
+[2025-06-30 10:50:21,733] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:52:51,777] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":247,"dt":3,"ts":"2025-06-30T08:52:51.306000Z","q":192}
+[2025-06-30 10:52:51,780] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:53:51,777] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T08:53:51.330000Z","q":192}
+[2025-06-30 10:53:51,779] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:53:56,794] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":22,"dt":3,"ts":"2025-06-30T08:53:56.268000Z","q":192}
+[2025-06-30 10:53:56,794] INFO - Messaggio inoltrato a parking-asm/average_duration con successo.
+[2025-06-30 10:54:41,746] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T08:54:41.308000Z","q":192}
+[2025-06-30 10:54:41,747] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:55:01,734] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T08:55:01.329000Z","q":192}
+[2025-06-30 10:55:01,735] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:55:21,732] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T08:55:21.327000Z","q":192}
+[2025-06-30 10:55:21,733] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:55:31,739] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T08:55:31.312000Z","q":192}
+[2025-06-30 10:55:31,739] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:56:01,738] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T08:56:01.314000Z","q":192}
+[2025-06-30 10:56:01,740] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:56:21,734] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T08:56:21.307000Z","q":192}
+[2025-06-30 10:56:21,735] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:56:31,741] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T08:56:31.393000Z","q":192}
+[2025-06-30 10:56:31,742] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:56:51,731] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T08:56:51.304000Z","q":192}
+[2025-06-30 10:56:51,732] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:57:21,800] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":247,"dt":3,"ts":"2025-06-30T08:57:21.314000Z","q":192}
+[2025-06-30 10:57:21,801] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:58:31,742] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T08:58:31.336000Z","q":192}
+[2025-06-30 10:58:31,743] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 10:58:36,744] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":21,"dt":3,"ts":"2025-06-30T08:58:36.270000Z","q":192}
+[2025-06-30 10:58:36,744] INFO - Messaggio inoltrato a parking-asm/average_duration con successo.
+[2025-06-30 11:01:11,738] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T09:01:11.417000Z","q":192}
+[2025-06-30 11:01:11,739] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:02:41,802] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T09:02:41.421000Z","q":192}
+[2025-06-30 11:02:41,804] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:02:46,738] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":22,"dt":3,"ts":"2025-06-30T09:02:46.385000Z","q":192}
+[2025-06-30 11:02:46,738] INFO - Messaggio inoltrato a parking-asm/average_duration con successo.
+[2025-06-30 11:03:11,807] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T09:03:11.427000Z","q":192}
+[2025-06-30 11:03:11,808] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:03:51,743] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T09:03:51.469000Z","q":192}
+[2025-06-30 11:03:51,745] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:04:11,777] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T09:04:11.419000Z","q":192}
+[2025-06-30 11:04:11,778] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:04:21,746] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T09:04:21.442000Z","q":192}
+[2025-06-30 11:04:21,746] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:06:11,741] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":247,"dt":3,"ts":"2025-06-30T09:06:11.472000Z","q":192}
+[2025-06-30 11:06:11,742] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:06:51,754] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":248,"dt":3,"ts":"2025-06-30T09:06:51.477000Z","q":192}
+[2025-06-30 11:06:51,755] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:08:22,743] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":247,"dt":3,"ts":"2025-06-30T09:08:21.587000Z","q":192}
+[2025-06-30 11:08:22,744] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:09:31,740] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T09:09:31.451000Z","q":192}
+[2025-06-30 11:09:31,741] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:09:36,834] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":21,"dt":3,"ts":"2025-06-30T09:09:36.403000Z","q":192}
+[2025-06-30 11:09:36,834] INFO - Messaggio inoltrato a parking-asm/average_duration con successo.
+[2025-06-30 11:11:31,763] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T09:11:31.502000Z","q":192}
+[2025-06-30 11:11:31,766] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:11:41,788] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T09:11:41.445000Z","q":192}
+[2025-06-30 11:11:41,788] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:12:01,768] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":247,"dt":3,"ts":"2025-06-30T09:12:01.445000Z","q":192}
+[2025-06-30 11:12:01,769] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:13:32,820] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T09:13:31.630000Z","q":192}
+[2025-06-30 11:13:32,821] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:14:11,809] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T09:14:11.463000Z","q":192}
+[2025-06-30 11:14:11,811] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:14:21,844] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T09:14:21.505000Z","q":192}
+[2025-06-30 11:14:21,844] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:15:51,853] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":243,"dt":3,"ts":"2025-06-30T09:15:51.500000Z","q":192}
+[2025-06-30 11:15:51,854] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:16:01,787] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T09:16:01.464000Z","q":192}
+[2025-06-30 11:16:01,787] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:17:11,776] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T09:17:11.443000Z","q":192}
+[2025-06-30 11:17:11,777] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:17:21,865] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T09:17:21.522000Z","q":192}
+[2025-06-30 11:17:21,865] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:18:42,777] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T09:18:41.615000Z","q":192}
+[2025-06-30 11:18:42,778] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:19:21,769] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T09:19:21.444000Z","q":192}
+[2025-06-30 11:19:21,770] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:19:51,783] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":247,"dt":3,"ts":"2025-06-30T09:19:51.435000Z","q":192}
+[2025-06-30 11:19:51,784] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:21:01,779] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":246,"dt":3,"ts":"2025-06-30T09:21:01.488000Z","q":192}
+[2025-06-30 11:21:01,781] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:22:01,774] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T09:22:01.488000Z","q":192}
+[2025-06-30 11:22:01,775] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:22:06,850] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":20,"dt":3,"ts":"2025-06-30T09:22:06.404000Z","q":192}
+[2025-06-30 11:22:06,850] INFO - Messaggio inoltrato a parking-asm/average_duration con successo.
+[2025-06-30 11:22:21,784] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T09:22:21.437000Z","q":192}
+[2025-06-30 11:22:21,784] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:22:26,840] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":21,"dt":3,"ts":"2025-06-30T09:22:26.401000Z","q":192}
+[2025-06-30 11:22:26,843] INFO - Messaggio inoltrato a parking-asm/average_duration con successo.
+[2025-06-30 11:25:31,782] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":243,"dt":3,"ts":"2025-06-30T09:25:31.440000Z","q":192}
+[2025-06-30 11:25:31,783] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:25:36,785] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":20,"dt":3,"ts":"2025-06-30T09:25:36.404000Z","q":192}
+[2025-06-30 11:25:36,786] INFO - Messaggio inoltrato a parking-asm/average_duration con successo.
+[2025-06-30 11:25:41,788] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T09:25:41.437000Z","q":192}
+[2025-06-30 11:25:41,789] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:27:31,871] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T09:27:31.444000Z","q":192}
+[2025-06-30 11:27:31,871] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:29:11,817] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T09:29:11.449000Z","q":192}
+[2025-06-30 11:29:11,819] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:29:16,778] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":21,"dt":3,"ts":"2025-06-30T09:29:16.404000Z","q":192}
+[2025-06-30 11:29:16,782] INFO - Messaggio inoltrato a parking-asm/average_duration con successo.
+[2025-06-30 11:30:31,778] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":243,"dt":3,"ts":"2025-06-30T09:30:31.460000Z","q":192}
+[2025-06-30 11:30:31,781] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:30:51,778] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T09:30:51.488000Z","q":192}
+[2025-06-30 11:30:51,779] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:31:31,786] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":245,"dt":3,"ts":"2025-06-30T09:31:31.494000Z","q":192}
+[2025-06-30 11:31:31,788] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:31:46,853] INFO - Messaggio ricevuto da A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV: {"d":22,"dt":3,"ts":"2025-06-30T09:31:46.413000Z","q":192}
+[2025-06-30 11:31:46,854] INFO - Messaggio inoltrato a parking-asm/average_duration con successo.
+[2025-06-30 11:31:51,788] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":244,"dt":3,"ts":"2025-06-30T09:31:51.518000Z","q":192}
+[2025-06-30 11:31:51,789] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.
+[2025-06-30 11:32:21,790] INFO - Messaggio ricevuto da A2MQTT_EMOTION/STALLI_OCCUPATI/CV: {"d":243,"dt":3,"ts":"2025-06-30T09:32:21.488000Z","q":192}
+[2025-06-30 11:32:21,791] INFO - Messaggio inoltrato a parking-asm/occupied_spots con successo.

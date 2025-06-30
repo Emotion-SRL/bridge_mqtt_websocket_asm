@@ -1,120 +1,80 @@
-# filepath: mqtt-ws-bridge/src/main.py
-import asyncio
-import json
-from datetime import datetime
 import paho.mqtt.client as mqtt
-import websockets
-from dotenv import load_dotenv
-import ssl
+import logging
 
-# Carica variabili d'ambiente
-load_dotenv()
+# === Configurazione logging ===
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='[%(asctime)s] %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("mqtt_relay.log"),
+        logging.StreamHandler()
+    ]
+)
 
-# Configurazione
+# === Configurazione broker MQTT di origine ===
 MQTT_BROKER = "185.131.248.7"
 MQTT_PORT = 1883
 MQTT_USER = "wisegrid"
 MQTT_PASSWORD = "wisegrid"
-MQTT_TOPICS = [
-    "A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV",
-    "A2MQTT_EMOTION/STALLI_OCCUPATI/CV"
-]
 
-# Configurazione WebSocket
+# === Configurazione broker WebSocket MQTT di destinazione ===
 WS_HOST = "emotion-projects.eu"
 WS_PORT = 443
-WS_URL = f"wss://{WS_HOST}:{WS_PORT}"
+WS_URL = f"wss://{WS_HOST}:{WS_PORT}/mqtt"
 
-# Variabile globale per la connessione WebSocket
-ws_connection = None
+TOPIC_MAPPING = {
+    "A2MQTT_EMOTION/MINUTI_PERM_MEDIA_GIORNALIERA/CV": "parking-asm/average_duration",
+    "A2MQTT_EMOTION/STALLI_OCCUPATI/CV": "parking-asm/occupied_spots"
+}
 
+# === Client MQTT (origine) ===
+def on_connect_source(client, userdata, flags, rc):
+    if rc == 0:
+        logging.info("Connesso con successo al broker MQTT di origine.")
+        for topic in TOPIC_MAPPING:
+            client.subscribe(topic)
+            logging.info(f"Iscritto al topic: {topic}")
+    else:
+        logging.error(f"Errore nella connessione al broker di origine. Codice: {rc}")
 
-async def connect_websocket():
-    """Stabilisce la connessione WebSocket con il server remoto"""
-    global ws_connection
-    ssl_context = ssl.create_default_context()
-    
-    while True:
+def on_message(client, userdata, msg):
+    target_topic = TOPIC_MAPPING.get(msg.topic)
+    payload = msg.payload.decode()
+
+    if target_topic:
+        logging.info(f"Messaggio ricevuto da {msg.topic}: {payload}")
         try:
-            ws_connection = await websockets.connect(WS_URL, ssl=ssl_context)
-            print(f"Connesso a WebSocket: {WS_URL}")
-            return
+            result = ws_client.publish(target_topic, msg.payload)
+            status = result[0]
+            if status == mqtt.MQTT_ERR_SUCCESS:
+                logging.info(f"Messaggio inoltrato a {target_topic} con successo.")
+            else:
+                logging.error(f"Errore durante la pubblicazione su {target_topic}. Codice: {status}")
         except Exception as e:
-            print(f"Errore di connessione al WebSocket: {e}")
-            await asyncio.sleep(5)  # Attendi 5 secondi prima di riprovare
+            logging.exception(f"Eccezione durante la pubblicazione su {target_topic}: {e}")
+    else:
+        logging.warning(f"Topic non mappato: {msg.topic}")
 
+# === Client MQTT (WebSocket destinazione) ===
+ws_client = mqtt.Client(transport="websockets")
+ws_client.tls_set()
+ws_client.tls_insecure_set(True)  # Se necessario per evitare errori con certificati self-signed
 
-async def send_message(message):
-    """Invia il messaggio al server WebSocket"""
-    global ws_connection
-    try:
-        if ws_connection and ws_connection.open:
-            await ws_connection.send(message)
-        else:
-            print("Riconnessione al WebSocket...")
-            await connect_websocket()
-            if ws_connection:
-                await ws_connection.send(message)
-    except Exception as e:
-        print(f"Errore nell'invio del messaggio: {e}")
-        ws_connection = None
+try:
+    ws_client.connect(WS_HOST, WS_PORT, 60)
+    ws_client.loop_start()
+    logging.info("Connesso al broker WebSocket MQTT di destinazione.")
+except Exception as e:
+    logging.exception(f"Errore nella connessione al broker WebSocket: {e}")
 
+# === Connessione client sorgente ===
+source_client = mqtt.Client()
+source_client.username_pw_set(MQTT_USER, MQTT_PASSWORD)
+source_client.on_connect = on_connect_source
+source_client.on_message = on_message
 
-def on_mqtt_message(client, userdata, message):
-    """Callback per i messaggi MQTT ricevuti"""
-    try:
-        payload = message.payload.decode()
-        topic = message.topic
-        
-        # Prepara il messaggio da inviare via WebSocket
-        ws_message = json.dumps({
-            "topic": topic,
-            "payload": payload,
-            "timestamp": datetime.now().isoformat()
-        })
-        
-        # Invia al WebSocket remoto
-        asyncio.run(send_message(ws_message))
-        
-    except Exception as e:
-        print(f"Errore nella gestione del messaggio MQTT: {e}")
-
-
-def setup_mqtt():
-    """Configura e avvia il client MQTT"""
-    client = mqtt.Client()
-    client.username_pw_set(MQTT_USER, MQTT_PASSWORD)
-    
-    # Callbacks
-    client.on_connect = lambda client, userdata, flags, rc: \
-        print(f"Connesso al broker MQTT con codice: {rc}")
-    client.on_message = on_mqtt_message
-    
-    # Connessione
-    client.connect(MQTT_BROKER, MQTT_PORT)
-    
-    # Sottoscrizione ai topic
-    for topic in MQTT_TOPICS:
-        client.subscribe(topic)
-    
-    return client
-
-
-async def main():
-    """Funzione principale"""
-    print("Avvio MQTT-WebSocket bridge...")
-    
-    # Stabilisci la connessione WebSocket
-    await connect_websocket()
-    
-    # Avvia client MQTT in un thread separato
-    mqtt_client = setup_mqtt()
-    mqtt_client.loop_start()
-    
-    # Mantieni il programma in esecuzione
-    while True:
-        await asyncio.sleep(1)
-
-
-if __name__ == "__main__":
-    asyncio.run(main())
+try:
+    source_client.connect(MQTT_BROKER, MQTT_PORT, 60)
+    source_client.loop_forever()
+except Exception as e:
+    logging.exception(f"Errore nella connessione al broker di origine: {e}")
