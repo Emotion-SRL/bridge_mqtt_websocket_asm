@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  mqtt-bridge:
+    image: emotionsrl/service-mqtt-bridge:test
+    container_name: mqtt-websocket-bridge
+    
+    environment:
+      - MQTT_BROKER=185.131.248.7
+      - MQTT_PORT=1883
+      - MQTT_USER=wisegrid
+      - MQTT_PASSWORD=wisegrid
+      - WS_HOST=emotion-projects.eu
+      - WS_PORT=443
+    
+    restart: unless-stopped
